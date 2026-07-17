@@ -13,7 +13,7 @@ const config ={
     timeout: 5000,
   },
 
-  reporter: 'html',
+  reporter: [['html'], ['github']],
   use: {
     browserName: 'chromium',
     headless: true,
